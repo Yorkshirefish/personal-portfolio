@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 section {
     padding-left: 140px;
     padding-right: 140px;
@@ -58,10 +62,37 @@ h1.hero-header {
     z-index: 1;
 }
 
+.hero-purple-text {
+    color: #A900E1;
+}
+
 div.hero-navigator {
     position: absolute;
     bottom: 0;
-    padding-bottom: 50px;
+    margin-bottom: 30px;
     z-index: 1;
+    text-align: center;
+}
+
+.hero-navigator p {
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.hero-navigator svg {
+    fill: #FFF;
+    width: 30px;
+    transition: all 0.3s;
+}
+
+.hero-navigator a:hover p {
+    color: #A900E1;
+}
+
+.hero-navigator a:hover svg {
+    fill: #A900E1;
 }
 
