@@ -3,7 +3,28 @@
     padding: 0;
 }
 
+h1,
+h2, 
 p {
-    font-family: 'Red Hat Display';
+    font-family: "Red Hat Display";
     color: #FFF;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 48px;
+}
+
+#hero {
+    background-color: purple;
 }
