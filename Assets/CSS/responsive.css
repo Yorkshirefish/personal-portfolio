@@ -1,0 +1,47 @@
+/*Menu*/
+
+@media only screen and (max-width: 900px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width: 901px) {
+    #mobile-nav {
+        display: none;
+    }
+}
+
+
+/*Hero Section*/
+
+@media only screen and (max-width: 900px) {
+    section#hero {
+        padding-left: 60px;
+        padding-right: 60px
+    }
+}
+
+
+
+@media only screen and (max-width: 760px) {
+    
+    section#hero {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+    h1.hero-header {
+        font-size: 40px;
+    }
+
+    .hero-navigator p {
+        font-size: 18px;
+    }
+}

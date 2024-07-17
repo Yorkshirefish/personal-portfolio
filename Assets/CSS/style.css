@@ -58,8 +58,9 @@ header hr {
     background-color: #fff;
 }
 
-header nav {
-    width: 100%;
+header #desktop-nav {
+    width: 575px;
+    min-width: 575px;
 }
 
 nav ul {
@@ -86,6 +87,23 @@ nav ul > li{
 
 .main-menu a:hover {
     color: #A900E1;
+}
+
+/*Mobile Menu*/
+
+nav#mobile-nav {
+    text-align: center;
+    margin: 0 20px;
+}
+
+#mobile-nav svg {
+    width: 35px;
+    fill: #FFF;
+    transition: fill 0.3s;
+}
+
+#mobile-nav a:hover svg {
+    fill: #A900E1;
 }
 
 /*Hero Section*/
