@@ -36,6 +36,10 @@ h2 {
     font-size: 48px;
 }
 
+.purple-text {
+    color: #A900E1;
+}
+
 /*Header*/
 
 header {
@@ -106,7 +110,7 @@ nav#mobile-nav {
     fill: #A900E1;
 }
 
-/*Hero Section*/
+/*--Hero Section--*/
 
 #hero {
     height: 100vh;
@@ -132,10 +136,6 @@ nav#mobile-nav {
 h1.hero-header {
     text-align: center;
     z-index: 1;
-}
-
-.hero-purple-text {
-    color: #A900E1;
 }
 
 div.hero-navigator {
@@ -168,3 +168,70 @@ div.hero-navigator {
     fill: #A900E1;
 }
 
+/*--Hero Section - END--*/
+
+/*--About Section--*/
+
+/*Section Styles*/
+
+section#about-me {
+    background-image: linear-gradient(#402b47 0%, #302933 100%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+
+}
+
+div.about-cont {
+    width: 1640px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.about-sub-cont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+/*Text Section*/
+
+div.about-text-cont {
+    row-gap: 15px;
+}
+
+.about-text-cont div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.about-text-cont > div > hr {
+    min-width: 57.5px;
+    height: 2px;
+    background-color: #FFF;
+    border: 0;
+    margin-top: 10px;
+}
+
+/*Image Section*/
+
+.about-image-cont img {
+    max-width: 536px;
+}
+
+.about-hover-img {
+    position: absolute;
+    opacity: 0%;
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+
+.about-hover-img:hover {
+    opacity: 100%;
+}
+
+
+/*--About Section - END--*/
