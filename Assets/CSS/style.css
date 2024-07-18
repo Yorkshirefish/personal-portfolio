@@ -12,10 +12,12 @@ section {
     padding-left: 140px;
     padding-right: 140px;
     display: flex;
+    justify-content: center;
 }
 
 h1,
-h2, 
+h2,
+h3, 
 p {
     font-family: "Red Hat Display";
     color: #FFF;
@@ -235,3 +237,70 @@ div.about-text-cont {
 
 
 /*--About Section - END--*/
+
+
+/*--My Skills--*/
+
+section#my-skills {
+    background-image: linear-gradient(#302933 0%, #402b47 100%);
+    justify-content: center;
+    padding: 100px 140px;
+}
+
+div.my-skills-outer {
+    width: 1640px;
+    text-align: center;
+}
+
+div.skills-cont {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 55px;
+}
+
+div.int-skills-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
+}
+
+/*Skill Container*/
+
+.skill img {
+    width: 150px;
+    transform: scale(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+
+.skill h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+div.skill {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    background-color: #302933;
+    border: 3px solid #fff;
+    border-radius: 30px;
+}
+
+div.skill:hover {
+    background-color: #8B23AD;
+    cursor: help;
+}
+
+div.skill:hover img {
+    transform: scale(1.17);
+}
+
+/*--My Skills - End--*/
