@@ -45,3 +45,59 @@
         font-size: 18px;
     }
 }
+
+/*About Section*/
+
+@media only screen and (max-width: 1700px) {
+    section#about-me {
+        padding: 100px 60px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    
+    div.about-cont {
+        column-gap: 100px;
+    }
+    
+    div.about-image-cont {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    div.about-cont {
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .about-image-cont img {
+        max-width: 250px;
+    }
+
+    section#about-me {
+        padding: 100px 30px;
+    }
+
+    div.about-image-cont {
+        width: 100%;
+    }
+
+    div.about-sub-cont {
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .about-text-cont > div > hr {
+        display: none;
+    }
+
+    .about-image-cont img {
+        max-width: 100%;
+    }
+
+}
