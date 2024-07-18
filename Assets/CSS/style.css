@@ -267,6 +267,12 @@ div.int-skills-cont {
     column-gap: 50px;
 }
 
+div.skill-outer {
+    display: flex;
+    justify-content: center;
+}
+
+
 /*Skill Container*/
 
 .skill img {

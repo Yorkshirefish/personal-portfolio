@@ -101,3 +101,50 @@
     }
 
 }
+
+/*My Skills*/
+
+@media only screen and (max-width: 1700px) {
+    section#my-skills {
+        padding: 100px 60px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    div.skill {
+        width: 250px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    
+    div.skill {
+        width: 300;
+        height: 350px;
+    }
+
+    div.int-skills-cont {
+        flex-wrap: wrap;
+        row-gap: 50px;
+        justify-content: center;
+    }
+
+    div.skill-outer {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    
+    section#my-skills {
+        padding: 100px 30px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    
+    div.skill-outer {
+        width: 100%;
+    }
+}
