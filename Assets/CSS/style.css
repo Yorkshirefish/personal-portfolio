@@ -312,3 +312,80 @@ div.skill:hover img {
 }
 
 /*--My Skills - End--*/
+
+/*--Experience--*/
+
+section#experience {
+    background-color: #302933;
+    padding: 100px 140px;
+}
+
+div.experience-outer {
+    width: 1640px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+div.ex-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Experience Individual*/
+
+div.experience-cont {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+div.date-cont {
+    min-width: 135px;
+}
+
+div.ex-details-cont {
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+div.experience-cont p {
+    margin-bottom: 10px;
+}
+
+/*Experience Skills Sections*/
+
+div.ex-skill-outer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+div.ex-skill {
+    width: 100px;
+    height: 35px;
+    border: 1px solid #A900E1;
+    background-color: #402B47;
+    border-radius: 17px;
+    color: #FFF;
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s;
+}
+
+div.ex-skill:hover {
+    background-color: #552665;
+    cursor: help;
+}
+
+/*--Experience - END--*/
