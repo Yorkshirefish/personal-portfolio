@@ -330,8 +330,10 @@ div.experience-outer {
 div.ex-cont {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
+    column-gap: 20px;
+    row-gap: 70px;
 }
 
 /*Experience Individual*/
@@ -344,6 +346,7 @@ div.experience-cont {
 
 div.date-cont {
     min-width: 135px;
+    text-align: right;
 }
 
 div.ex-details-cont {

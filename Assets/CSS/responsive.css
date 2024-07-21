@@ -148,3 +148,36 @@
         width: 100%;
     }
 }
+
+/*Experience Seciton*/
+
+@media only screen and (max-width: 1700px) {
+    section#experience {
+        padding: 100px 60px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    div.ex-cont {
+        flex-wrap: wrap;
+        
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    
+    section#experience {
+        padding: 100px 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    div.experience-cont {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    div.date-cont {
+        text-align: left;
+    }
+}
