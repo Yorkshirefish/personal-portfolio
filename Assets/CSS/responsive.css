@@ -181,3 +181,35 @@
         text-align: left;
     }
 }
+
+/*Testimonials Section*/
+
+@media only screen and (max-width: 1940px) {
+    div.testimonial-col {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    section#testimonials {
+        padding: 100px 60px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    div.testimonials-cont {
+        flex-wrap: wrap;
+        row-gap:40px
+    }
+
+    div.testimonial-col {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    
+    section#testimonials {
+        padding: 100px 30px;
+    }
+}
