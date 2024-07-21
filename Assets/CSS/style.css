@@ -392,3 +392,52 @@ div.ex-skill:hover {
 }
 
 /*--Experience - END--*/
+
+/*--Testimonials--*/
+
+section#testimonials {
+    background-color: #552665;
+    padding: 100px 140px;
+}
+
+div.testimonial-outer {
+    width: 1640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+}
+
+div.testimonials-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+div.testimonial-col {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 500px;
+}
+
+/*Testimonial Individual*/
+
+div.testimonial-individual {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 15px;
+    border: 3px solid #fff;
+    border-radius: 26px;
+    padding: 30px 50px;
+}
+
+.testimonial-individual .name {
+    font-weight: 700;
+}
+
+/*--Testimonials - END--*/
