@@ -213,3 +213,27 @@
         padding: 100px 30px;
     }
 }
+
+
+
+
+/*CONTACT PAGE*/
+
+/*Hero Section*/
+
+@media only screen and (max-width: 900px) {
+    section#contact-hero {
+        padding-left: 60px;
+        padding-right: 60px
+    }
+}
+
+
+
+@media only screen and (max-width: 760px) {
+    
+    section#contact-hero {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

@@ -501,6 +501,7 @@ div.contact-hero-overlay {
 
 #contact-hero h1 {
     z-index: 1;
+    text-align: center;
 }
 
 #contact-hero hr {
