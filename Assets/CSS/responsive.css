@@ -237,3 +237,33 @@
         padding-right: 30px;
     }
 }
+
+/*Contact Section*/
+
+@media only screen and (max-width: 1100px) {
+    div.contact-outer-cont {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    div.contact-sub-section {
+        width: 100%;
+    }
+
+    .contact-form-cont h2 {
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    form div {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    form > div > input {
+        width: 100%;
+    }
+
+}

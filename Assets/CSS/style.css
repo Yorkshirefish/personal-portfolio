@@ -537,6 +537,7 @@ div.contact-sub-section {
 
 div.contact-form-cont {
     width: 50%;
+    gap: 50px;
 }
 
 .social-cont h2 {
@@ -550,16 +551,32 @@ div.contact-form-cont {
     margin-top: 40px;
 }
 
-.social-cont svg {
+.social-icons-cont svg {
     max-width: 45px;
     fill: #A900E1;
 }
+
+.social-icons-cont a {
+    display: block;
+}
+
+div.social-cont p a {
+    color: #A900E1;
+    transition: color 0.3s;
+}
+
+div.social-cont p a:hover {
+    color: #FFF;
+}
+
+
 
 /*Contact Form Styling*/
 
 form {
     display: flex;
     flex-direction: column;
+    gap: 20px;
     flex-wrap: wrap;
     width: 100%;
 }
@@ -582,6 +599,46 @@ form input {
     font-size: 18px;
     font-weight: 500;
     padding: 0 30px;
+    box-sizing: border-box;
+}
+
+form label {
+    display: none;
+}
+
+form textarea {
+    background-color: transparent;
+    font-family: 'Red Hat Display';
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 30px;
+    border: 1px solid #FFF;
+    border-radius: 22px;
+
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: #FFF;
+}
+
+div.submit-cont {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.submit-cont input {
+    background-color: transparent;
+    border-color: #FFF;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.submit-cont input:hover {
+    background-color: #A900E1;
+    border-color: #A900E1;
 }
 
 /*--Contact Section - END--*/
