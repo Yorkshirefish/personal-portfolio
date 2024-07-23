@@ -18,7 +18,9 @@ section {
 h1,
 h2,
 h3, 
-p {
+p,
+input,
+textarea {
     font-family: "Red Hat Display";
     color: #FFF;
 }
@@ -514,6 +516,74 @@ div.contact-hero-overlay {
 
 /*--Hero Section - END--*/
 
+/*--Contact Section--*/
 
+section#contact-section {
+    background-image: linear-gradient(#402B47 0%, #302933 100%);
+    padding: 100px 140px;
+}
+
+div.contact-outer-cont {
+    width: 1640px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.contact-sub-section {
+    display: flex;
+    flex-direction: column;
+}
+
+div.contact-form-cont {
+    width: 50%;
+}
+
+.social-cont h2 {
+    margin-bottom: 50px;
+}
+
+.social-cont div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    margin-top: 40px;
+}
+
+.social-cont svg {
+    max-width: 45px;
+    fill: #A900E1;
+}
+
+/*Contact Form Styling*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+form > div   {
+    width: 100%;
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+}
+
+form input {
+    width: 45%;
+    border: 1px solid #FFF;
+    border-radius: 22px;
+    height: 50px;
+    background-color: transparent;
+    font-family: 'Red Hat Display';
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 30px;
+}
+
+/*--Contact Section - END--*/
 
 /*--CONTACT PAGE - END--*/
