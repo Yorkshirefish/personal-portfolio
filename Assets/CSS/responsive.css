@@ -267,3 +267,12 @@
     }
 
 }
+
+
+/*Mobile Popup*/
+
+@media only screen and (max-width: 700px) {
+    #mobile-popup li {
+        font-size: 30px;
+    }
+}
