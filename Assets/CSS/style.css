@@ -114,6 +114,7 @@ nav ul > li{
 nav#mobile-nav {
     text-align: center;
     margin: 0 20px;
+    z-index: 99;
 }
 
 #mobile-nav svg {
@@ -652,15 +653,14 @@ header#mobile-popup {
     height: 100vh;
     width: 100%;
     max-width: 100vw;
-    background: black;
+    background: #302933;
     position: fixed;
     z-index: 90;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0;
-    opacity: 0;
+    display: none;
 }
 
 #mobile-popup ul {
